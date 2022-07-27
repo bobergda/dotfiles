@@ -137,3 +137,5 @@ alias down='docker compose down'
 alias wp='docker compose exec wp-cli wp'
 alias dc='docker compose'
 
+
+complete -C /usr/bin/terraform terraform
