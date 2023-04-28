@@ -134,7 +134,7 @@ PS1="$GREEN\u@\h$NO_COLOR:$BLUE\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
 
 alias up='docker compose up -d'
 alias down='docker compose down'
-alias wp='docker compose exec wp-cli wp'
+# alias wp='docker compose exec wp-cli wp'
 alias dc='docker compose'
 alias penv='source venv/bin/activate'
 
