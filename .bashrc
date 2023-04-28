@@ -136,6 +136,6 @@ alias up='docker compose up -d'
 alias down='docker compose down'
 alias wp='docker compose exec wp-cli wp'
 alias dc='docker compose'
-
+alias penv='source venv/bin/activate'
 
 complete -C /usr/bin/terraform terraform
