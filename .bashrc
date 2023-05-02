@@ -136,6 +136,11 @@ alias up='docker compose up -d'
 alias down='docker compose down'
 # alias wp='docker compose exec wp-cli wp'
 alias dc='docker compose'
-alias penv='source venv/bin/activate'
+alias activate_venv='source venv/bin/activate'
+alias new_venv='python3 -m venv venv'
 
 complete -C /usr/bin/terraform terraform
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
