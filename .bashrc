@@ -135,8 +135,8 @@ PS1="$GREEN\u@\h$NO_COLOR:$BLUE\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
 alias up='docker compose up -d'
 alias down='docker compose down'
 alias dc='docker compose'
-alias venvactivate='source venv/bin/activate'
-alias venvnev='python3 -m venv venv'
+alias va='source venv/bin/activate'
+alias vcrate='python3 -m venv venv'
 alias piprequirements='pip install -r requirements.txt'
 
 #complete -C /usr/bin/terraform terraform
