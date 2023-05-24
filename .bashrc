@@ -136,7 +136,7 @@ alias up='docker compose up -d'
 alias down='docker compose down'
 alias dc='docker compose'
 alias va='source venv/bin/activate'
-alias vcrate='python3 -m venv venv'
+alias vcreate='python3 -m venv venv'
 alias piprequirements='pip install -r requirements.txt'
 
 #complete -C /usr/bin/terraform terraform
