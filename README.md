@@ -1,6 +1,6 @@
 # Home dotfiles
 
-Config & install git https://github.com/bobergda/config-git
+Config & install git
 ```
 cd ~
 git clone git@github.com:bobergda/dotfiles.git
