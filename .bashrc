@@ -143,5 +143,7 @@ alias piprequirements='pip install -r requirements.txt'
 # Load Angular CLI autocompletion.
 #source <(ng completion script)
 
-. .env
+if [ -f ~/.env ]; then
+    . ~/.env
+fi
 
