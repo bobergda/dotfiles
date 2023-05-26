@@ -135,9 +135,17 @@ PS1="$GREEN\u@\h$NO_COLOR:$BLUE\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
 alias up='docker compose up -d'
 alias down='docker compose down'
 alias dc='docker compose'
-alias va='source venv/bin/activate'
-alias vcreate='python3 -m venv venv'
+alias va='source *env*/bin/activate'
+#alias vcreate='python3 -m venv env'
 alias piprequirements='pip install -r requirements.txt'
+
+vcreate() {
+  if [ "$1" != "" ]; then
+    name="_$1"
+  fi
+  python3 -m venv "env$name"	
+}
+
 
 #complete -C /usr/bin/terraform terraform
 # Load Angular CLI autocompletion.
