@@ -136,7 +136,6 @@ alias up='docker compose up -d'
 alias down='docker compose down'
 alias dc='docker compose'
 alias va='source *env*/bin/activate'
-#alias vcreate='python3 -m venv env'
 alias piprequirements='pip install -r requirements.txt'
 
 vcreate() {
@@ -155,3 +154,4 @@ if [ -f ~/.env ]; then
     . ~/.env
 fi
 
+export PATH=$PATH:~/Android/Sdk/platform-tools
